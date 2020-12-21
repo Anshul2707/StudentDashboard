@@ -1,10 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import CafeOverview from './App';
 import reportWebVitals from './reportWebVitals';
-import ClassOverview from './classmate';
-import  StudentDashboard  from './StudentDashboard';
+import  StudentDashboard  from '../src/Components/Main Page/StudentDashboard';
 
  /*ReactDOM.render(
   <React.StrictMode>

@@ -1,8 +1,7 @@
 import React from 'react';
-import {CafeDetails,CafeName, CafeAddress,Faculty,Contact, CafeImage} from '../src/cafe.details.components';
-import { ReactComponent as Logo } from './cafeimage.svg';
-import image from './image.png';
-import { HorizontalFlexBox1, VerticleFlexBox} from './student.styles'
+import {CafeDetails,CafeName, CafeAddress,Faculty,Contact, CafeImage} from '../CafeDetails/Cafe.Details.Styles';
+import image from '../Assets/image.png';
+import { HorizontalFlexBox1, VerticleFlexBox} from '../Main Page/student.styles'
 
 
 const CafeOverview = (props) => {

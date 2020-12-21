@@ -1,9 +1,9 @@
 import React from 'react';
-import CafeOverview from './App';
-import ClassOverview from './classmate';
-import Card from './EnrolledCourses';
-import DiscoverCard from './DiscoverCourses';
-import { HorizontalFlexBox , VerticleFlexBox, CafeDetail, CafeDetail1, CafeDetail2,VerticleFlexBox2} from './student.styles';
+import CafeOverview from '../CafeDetails/CafeDetails';
+import ClassOverview from '../CafeDetails/classmate';
+import Card from '../EnrolledCourses/EnrolledCourses';
+import DiscoverCard from '../DiscoverCourses/DiscoverCourses';
+import { HorizontalFlexBox , VerticleFlexBox, CafeDetail, CafeDetail1, CafeDetail2,VerticleFlexBox2} from '../Main Page/student.styles';
 import { Scrollbars } from 'react-custom-scrollbars';
 
 

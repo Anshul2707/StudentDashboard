@@ -1,6 +1,6 @@
 import React from 'react'
 import { EnrolledCourseCard, EnrolledCourseDetails, EnrolledCourseImg, EnrolledCourseName, EnrolledCoursePercentage, EnrolledCoursePercentageInner, EnrolledCoursePercentageOuter, Resume, ResumeButton } from './Enrolled.Course.styles'
-import MicrosoftLogo from './MicrosoftLogo.png';
+import MicrosoftLogo from '../Assets/MicrosoftLogo.png';
 
 const Card = (props) => {
     const { course_percentage, course_name } = props;

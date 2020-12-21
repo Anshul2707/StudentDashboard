@@ -1,5 +1,5 @@
 import React from 'react';
-import { StudentNumber,ClassMate, Student} from '../src/cafe.details.components';
+import { StudentNumber,ClassMate, Student} from './Cafe.Details.Styles';
 
 const ClassOverview = (props) => {
   const { student_number } = props;
